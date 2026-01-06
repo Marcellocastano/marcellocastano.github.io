@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcello e Federica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="hero full-width">
+        <h1>Marcello & Federica</h1>
+        <p class="date">18 Luglio 2026</p>
+        <div class="countdown">
+            <div class="countdown-item">
+                <span id="days">0</span>
+                <label>Giorni</label>
+            </div>
+            <div class="countdown-item">
+                <span id="hours">0</span>
+                <label>Ore</label>
+            </div>
+            <div class="countdown-item">
+                <span id="minutes">0</span>
+                <label>Minuti</label>
+            </div>
+            <div class="countdown-item">
+                <span id="seconds">0</span>
+                <label>Secondi</label>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+        </div>
+    </section>
+
+    <section class="venue-section full-width">
+        <div class="venue-content">
+            <h2 class="section-title">La Cerimonia</h2>
+            <!-- <div class="divider"></div> -->
+            
+            <div class="venue-info">
+                <h3>Chiesa di San Lorenzo</h3>
+                <p>La cerimonia religiosa si terrà nella splendida Chiesa di San Lorenzo, un luogo ricco di storia e spiritualità che renderà il nostro giorno ancora più speciale.</p>
+                <div class="venue-buttons">
+                    <span class="venue-time">Ore 16:00</span>
+                    <a href="https://maps.google.com/?q=Chiesa+di+San+Lorenzo" target="_blank" class="map-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        Come arrivare
+                    </a>
+                </div>
+            </div>
+            
+            <div class="photo-gallery">
+                <img src="https://images.unsplash.com/photo-1548625149-fc4a29cf7092?w=800" alt="Chiesa - Interno">
+                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800" alt="Fiori bianchi e rosa">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800" alt="Decorazioni floreali">
+            </div>
+        </div>
+    </section>
+
+    <section class="venue-section full-width" style="background: linear-gradient(135deg, var(--soft-white) 0%, var(--light-pink) 100%);">
+        <div class="venue-content">
+            <h2 class="section-title">Il Ricevimento</h2>
+            <!-- <div class="divider"></div> -->
+            
+            <div class="venue-info">
+                <h3>Villa Favorita</h3>
+                <p>Dopo la cerimonia, vi aspettiamo a Villa Favorita per festeggiare insieme con una serata indimenticabile tra buon cibo, musica e tanta allegria.</p>
+                <div class="venue-buttons">
+                    <span class="venue-time">A partire dalle ore 18:00</span>
+                    <a href="https://maps.google.com/?q=Villa+Favorita" target="_blank" class="map-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        Come arrivare
+                    </a>
+                </div>
+            </div>
+            
+            <div class="photo-gallery masonry">
+                <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1200" alt="Villa Favorita - Esterno">
+                <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=800" alt="Tavola elegante">
+                <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800" alt="Dettagli decorativi">
+            </div>
+        </div>
+    </section>
+
+    <section class="rsvp-section full-width">
+        <h2 class="section-title">Conferma la tua presenza</h2>
+        <div class="divider"></div>
+        <p class="rsvp-message">
+            <span class="font-italic">La vostra presenza è fondamentale per noi!</span><br>
+            Vi chiediamo gentilmente di confermare la vostra partecipazione e di comunicarci eventuali intolleranze o esigenze alimentari.
+        </p>
+        
+        <div class="rsvp-options">
+            <div class="rsvp-option">
+                <div class="rsvp-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                </div>
+                <h3>Compila il form</h3>
+                <p>Rispondi a poche semplici domande tramite il nostro modulo online</p>
+                <a href="#" class="rsvp-button" id="google-form-link">
+                    Vai al form
+                </a>
+            </div>
+            
+            <div class="rsvp-divider">
+                <span>oppure</span>
+            </div>
+            
+            <div class="rsvp-option">
+                <div class="rsvp-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                    </svg>
+                </div>
+                <h3>Scrivici su WhatsApp</h3>
+                <p>Contattaci direttamente per confermare la tua presenza</p>
+                <div class="whatsapp-contacts">
+                    <a href="https://wa.me/393401234567" target="_blank" class="whatsapp-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        Marcello
+                    </a>
+                    <a href="https://wa.me/393407654321" target="_blank" class="whatsapp-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        Federica
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gift-section full-width">
+        <h2 class="section-title">Lista Nozze</h2>
+        <div class="divider"></div>
+        <p class="gift-message"><span class="font-italic">
+            La vostra presenza è il regalo più grande che possiate farci. 
+            Se desiderate comunque contribuire al nostro nuovo inizio insieme, 
+            potete farlo con un pensiero per il nostro viaggio di nozze. 
+            Ogni gesto sarà accolto con immensa gratitudine e tanto amore.</span> 💕
+        </p>
+        <div class="iban-box">
+            <p>Intestato a: Nome Cognome</p>
+            <p class="iban">IT00 X000 0000 0000 0000 0000 000</p>
+        </div>
+    </section>
+
+    <footer>
+        <p><span class="font-italic">Con amore, vi aspettiamo!</span> ❤️</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

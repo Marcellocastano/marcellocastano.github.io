@@ -1,0 +1,3 @@
+# Blocca tutti i crawler per proteggere dati sensibili
+User-agent: *
+Disallow: /

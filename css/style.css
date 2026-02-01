@@ -642,4 +642,8 @@ footer p {
         width: 100%;
         justify-content: center;
     }
+
+    .photo-gallery.venue-gallery-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
